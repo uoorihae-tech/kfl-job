@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>한국외국어대학교 KFL대학원 취업정보</title>
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0f2a4a; --navy2:#1c4170; --accent:#c8a24a; --bg:#f5f6f8; --card:#fff;
+  --ink:#1b1f24; --sub:#5b6573; --line:#e3e6eb; --red:#c0392b; --green:#2e7d4f;
+  --edu:#2563a8; --trans:#7a4bb3; --culture:#b5662b; --all:#4b5563;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Noto Sans KR",system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+a{color:inherit}
+header{background:var(--navy);color:#fff;padding:28px 20px 0}
+.wrap{max-width:1080px;margin:0 auto}
+.brand{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand-l{display:flex;align-items:center;gap:14px}
+.logo{width:64px;height:64px;flex:none;border-radius:50%}
+@media(max-width:520px){.logo{width:50px;height:50px}.brand h1{font-size:21px!important}}
+.brand h1{margin:0;font-size:26px;font-weight:900;letter-spacing:-.5px}
+.brand h1 span{color:var(--accent)}
+.brand p{margin:4px 0 0;color:#c9d4e3;font-size:14px}
+.live{font-size:12px;color:#c9d4e3;display:flex;align-items:center;gap:6px}
+.dot{width:8px;height:8px;border-radius:50%;background:#7a8899}
+.dot.on{background:#4ade80;box-shadow:0 0 0 3px rgba(74,222,128,.25)}
+nav.tabs{display:flex;gap:4px;margin-top:22px;overflow-x:auto}
+nav.tabs button{background:transparent;border:0;color:#c9d4e3;font:inherit;font-size:15px;font-weight:500;padding:12px 16px;border-radius:10px 10px 0 0;cursor:pointer;white-space:nowrap}
+nav.tabs button.active{background:var(--bg);color:var(--navy);font-weight:700}
+nav.tabs .cnt{font-size:12px;opacity:.7;margin-left:4px}
+main{padding:22px 20px 60px}
+.grid{display:grid;grid-template-columns:1fr 280px;gap:20px}
+@media(max-width:860px){.grid{grid-template-columns:1fr}}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+.toolbar input[type=search]{flex:1;min-width:180px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;font:inherit;background:#fff}
+.toolbar label{font-size:13px;color:var(--sub);display:flex;align-items:center;gap:4px;cursor:pointer}
+.btn{background:var(--navy);color:#fff;border:0;border-radius:8px;padding:10px 16px;font:inherit;font-weight:700;cursor:pointer}
+.btn:hover{background:var(--navy2)}
+.board{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.row{border-top:1px solid var(--line)}
+.row:first-child{border-top:0}
+.row-head{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;padding:14px 16px;cursor:pointer}
+.row-head:hover{background:#fafbfc}
+.row-head .more{font-size:12px;color:var(--navy2);font-weight:500}
+.badge{font-size:11.5px;font-weight:700;padding:3px 8px;border-radius:999px;color:#fff;white-space:nowrap}
+.b-edu{background:var(--edu)}.b-trans{background:var(--trans)}.b-culture{background:var(--culture)}.b-all{background:var(--all)}
+.title{font-weight:700;font-size:15px}
+.meta{font-size:12.5px;color:var(--sub);margin-top:2px;display:flex;gap:10px;flex-wrap:wrap}
+.kind{border:1px solid var(--line);border-radius:4px;padding:0 6px}
+.dday{font-size:12.5px;font-weight:700;white-space:nowrap;text-align:right}
+.dday.urgent{color:var(--red)}.dday.open{color:var(--green)}.dday.closed{color:#9aa3ae;font-weight:500}
+.row.closed .title{color:#8a939e}
+/* 눌러서 펼치기 */
+.row.open-body{background:#fbfcfd}
+.row.open-body .row-head{background:#f3f6fa}
+.row-body{display:none;padding:4px 16px 18px;font-size:14px;border-top:1px dashed var(--line)}
+.row.open-body .row-body{display:block;animation:fold .18s ease-out}
+@keyframes fold{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+.d-info{display:grid;grid-template-columns:64px 1fr;gap:5px 10px;font-size:13.5px;margin:12px 0;padding:12px;border:1px solid var(--line);border-radius:10px;background:#fff}
+.d-info dt{color:var(--sub)}
+.d-info dd{margin:0;font-weight:500;word-break:break-all}
+.d-sum{font-size:13px;font-weight:700;color:var(--sub);margin:0 0 6px}
+.row-body .content{white-space:pre-wrap;background:#fff;border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:8px;padding:12px;margin-bottom:12px}
+.row-body .actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.row-body .hint{font-size:12px;color:var(--sub);margin:10px 0 0}
+.link-btn{display:inline-block;background:var(--accent);color:#1b1f24;text-decoration:none;font-weight:700;border-radius:8px;padding:8px 14px;font-size:14px}
+.src{font-size:12px;color:var(--sub)}
+.empty{padding:40px 16px;text-align:center;color:var(--sub)}
+aside .box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:16px}
+aside h3{margin:0 0 10px;font-size:15px}
+aside ul{margin:0;padding:0;list-style:none}
+aside li{margin:6px 0;font-size:13.5px}
+aside li a{text-decoration:none;color:var(--navy2)}
+aside li a:hover{text-decoration:underline}
+aside .note{font-size:12.5px;color:var(--sub);margin:0}
+.dept-label{font-size:12px;font-weight:700;color:var(--sub);margin:12px 0 4px}
+.status{font-size:13px;color:var(--sub);padding:8px 0}
+footer{text-align:center;font-size:12px;color:var(--sub);padding:20px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <div class="brand-l">
+        <img src="logo.png" alt="한국외국어대학교 KFL대학원 로고" class="logo">
+        <div>
+          <h1>한국외국어대학교 <span>KFL대학원 취업정보</span></h1>
+          <p>제9대 원우회 한결 · 학과별 취업정보 게시판</p>
+        </div>
+      </div>
+      <div class="live"><span class="dot on" id="liveDot"></span><span id="liveText">불러오는 중…</span></div>
+    </div>
+    <nav class="tabs" id="tabs"></nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap grid">
+    <section>
+      <div class="toolbar">
+        <input type="search" id="q" placeholder="제목·기관·내용 검색">
+        <label><input type="checkbox" id="hideClosed" checked> 마감 공고 숨기기</label>
+        <a class="btn" id="writeBtn" target="_blank" rel="noopener" style="text-decoration:none">+ 공고 올리기</a>
+      </div>
+      <div class="status" id="status"></div>
+      <div class="board" id="board"><div class="empty">불러오는 중…</div></div>
+    </section>
+
+    <aside>
+      <div class="box">
+        <h3>게시판 안내</h3>
+        <p class="note">학과별 탭을 눌러 관련 공고만 볼 수 있습니다. 공고를 누르면 요약과 급여 등 주요 정보가 펼쳐집니다. 자동 수집 공고는 하루 두 번, 원우가 올린 공고는 몇 분 안에 반영됩니다. 지원 전에는 꼭 원문 링크에서 자격요건과 마감일을 다시 확인하세요.</p>
+      </div>
+      <div class="box">
+        <h3>문의</h3>
+        <p class="note">관리자 <b>윤해솔</b><br>문의는 인스타그램 <a href="https://www.instagram.com/hufs.kfl/" target="_blank" rel="noopener" style="color:var(--navy2);font-weight:700">@hufs.kfl</a> DM으로 보내 주세요.</p>
+      </div>
+      <div class="box">
+        <h3>상시 채용정보 바로가기</h3>
+        <div id="sites"></div>
+      </div>
+    </aside>
+  </div>
+</main>
+<footer>한국외국어대학교 KFL대학원 · 제9대 원우회 한결 · 관리자 윤해솔 · 문의 <a href="https://www.instagram.com/hufs.kfl/" target="_blank" rel="noopener">인스타그램 @hufs.kfl</a> DM</footer>
+
+<script>
+const DEPTS = [
+  {key:"전체", label:"전체"},
+  {key:"edu", label:"한국어교육학과", full:"외국어로서의 한국어교육학과"},
+  {key:"trans", label:"번역·커뮤니케이션학과", full:"외국어로서의 한국어번역·커뮤니케이션학과"},
+  {key:"culture", label:"한국문화·문학학과", full:"외국인을위한 한국문화·문학학과"},
+  {key:"all", label:"공통", full:"공통 (전 학과)"},
+];
+const SITES = {
+  edu:[
+    ["한국어교원 자격 누리집 · 구인정보","https://kteacher.korean.go.kr/jobsearch"],
+    ["누리-세종학당 · 한국어 교원 모집","https://nuri.iksi.or.kr/front/bbs/korlecturer/layout71/list.do"],
+    ["진학프로 · 대학 강사 채용","https://www.jinhakpro.com"],
+    ["하이브레인넷","https://www.hibrain.net"],
+  ],
+  trans:[
+    ["이화여대 통역번역연구소 · 채용공고","https://erits.ewha.ac.kr/erits/notice/employment.do"],
+    ["KOWORK · 외국인 채용 (통번역)","https://kowork.kr"],
+    ["한국문학번역원","https://www.ltikorea.or.kr"],
+  ],
+  culture:[
+    ["아트모아 · 문화예술 채용","https://www.artmore.kr"],
+    ["관광in · 관광전문인력포털","https://academy.visitkorea.or.kr"],
+    ["한국문화예술위원회 · 채용","https://www.arko.or.kr/board/list/4054"],
+    ["한국국제교류재단(KF)","https://www.kf.or.kr"],
+  ],
+  all:[
+    ["잡알리오 · 공공기관 채용","https://job.alio.go.kr"],
+    ["나라일터 · 공무원 채용","https://www.gojobs.go.kr"],
+  ],
+};
+
+// ===== 설정: 구글 폼/시트 연결 후 아래 두 값을 채우세요 =====
+const CONFIG = {
+  // 구글 폼 '응답자 링크' (원우가 공고 올리는 곳)
+  FORM_URL: "",
+  // 구글 시트 > 파일 > 공유 > 웹에 게시 > 'CSV' 로 게시한 링크
+  SHEET_CSV_URL: "",
+};
+// 구글 시트 열 이름 → 게시판 필드 (폼 질문 제목을 이렇게 만드세요)
+const COLS = {"타임스탬프":"createdAt","학과":"dept","구분":"kind","제목":"title","기관명":"org","마감일":"deadline","지역":"location","급여":"salary","원문 링크":"link","내용":"content","승인":"approved"};
+const DEPT_MAP = {"외국어로서의 한국어교육학과":"edu","외국어로서의 한국어번역·커뮤니케이션학과":"trans","외국인을위한 한국문화·문학학과":"culture","공통 (전 학과)":"all"};
+
+let posts = [], filePosts = [], sheetPosts = [];
+let current = "전체";
+const openIds = new Set();
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeUrl = u => { try { const x = new URL(u); return (x.protocol==="https:"||x.protocol==="http:") ? x.href : ""; } catch { return ""; } };
+
+function todayStr(){
+  const d = new Date(Date.now() + 9*3600*1000); // KST
+  return d.toISOString().slice(0,10);
+}
+function dday(deadline){
+  if(!deadline) return {text:"상시·채용 시", cls:"open", closed:false};
+  const t = todayStr();
+  const diff = Math.round((new Date(deadline) - new Date(t)) / 86400000);
+  if(diff < 0) return {text:"마감", cls:"closed", closed:true};
+  if(diff === 0) return {text:"오늘 마감", cls:"urgent", closed:false};
+  return {text:`D-${diff} (${deadline.slice(5).replace("-","/")})`, cls: diff<=3?"urgent":"open", closed:false};
+}
+
+function renderSites(){
+  let h = "";
+  for(const d of DEPTS.slice(1)){
+    if(current!=="전체" && current!==d.key) continue;
+    h += `<div class="dept-label">${esc(d.label)}</div><ul>`;
+    for(const [n,u] of SITES[d.key]) h += `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)} ↗</a></li>`;
+    h += `</ul>`;
+  }
+  $("#sites").innerHTML = h;
+}
+
+function renderTabs(){
+  const hide = $("#hideClosed").checked;
+  const count = k => posts.filter(p => (k==="전체" || p.dept===k) && !(hide && dday(p.deadline).closed)).length;
+  $("#tabs").innerHTML = DEPTS.map(d =>
+    `<button data-k="${d.key}" class="${d.key===current?"active":""}">${esc(d.label)}<span class="cnt">${count(d.key)}</span></button>`
+  ).join("");
+}
+
+function bodyHtml(p, d, dept){
+  const url = safeUrl(p.link);
+  const created = (p.createdAt||"").slice(0,10);
+  let host = ""; try{ host = url ? new URL(url).hostname.replace(/^www\./,"") : ""; }catch{}
+  const info = [
+    ["기관", p.org], ["학과", dept.full || dept.label], ["구분", p.kind],
+    ["마감", p.deadline ? `${p.deadline} (${d.text.split(" ")[0]})` : "상시·채용 시 마감"],
+    ["급여", p.salary || "공고 원문 확인"],
+    ["지역", p.location], ["등록일", created], ["출처", host],
+  ].filter(r => r[1]);
+  return `<div class="row-body">
+    <dl class="d-info">${info.map(([k,v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>
+    <p class="d-sum">간략 요약</p>
+    <div class="content">${p.content ? esc(p.content) : "등록된 요약이 없습니다. 원문 공고에서 자세한 내용을 확인하세요."}</div>
+    <div class="actions">
+      ${url?`<a class="link-btn" href="${esc(url)}" target="_blank" rel="noopener">원문 공고 보기 ↗</a>`:""}
+      <span class="src">${p.source==="auto"?"자동 수집":"원우 등록"}</span>
+    </div>
+    <p class="hint">지원 전에 원문 링크에서 자격요건과 마감일을 꼭 다시 확인하세요.</p>
+  </div>`;
+}
+
+function render(){
+  renderTabs();
+  renderSites();
+  const q = $("#q").value.trim().toLowerCase();
+  const hide = $("#hideClosed").checked;
+  let list = posts.filter(p => current==="전체" || p.dept===current);
+  if(hide) list = list.filter(p => !dday(p.deadline).closed);
+  if(q) list = list.filter(p => [p.title,p.org,p.content,p.location,p.salary].join(" ").toLowerCase().includes(q));
+  if(!list.length){
+    $("#board").innerHTML = `<div class="empty">${posts.length ? "조건에 맞는 공고가 없습니다." : "아직 등록된 공고가 없습니다. 첫 공고를 올려 주세요."}</div>`;
+    return;
+  }
+  $("#board").innerHTML = list.map(p => {
+    const d = dday(p.deadline);
+    const dept = DEPTS.find(x=>x.key===p.dept) || DEPTS[4];
+    const created = (p.createdAt||"").slice(0,10);
+    const isOpen = openIds.has(p.id);
+    return `<div class="row ${d.closed?"closed":""} ${isOpen?"open-body":""}" data-id="${esc(p.id)}">
+      <div class="row-head">
+        <span class="badge b-${esc(p.dept)}">${esc(dept.label)}</span>
+        <div>
+          <div class="title">${esc(p.title)}</div>
+          <div class="meta">
+            ${p.kind?`<span class="kind">${esc(p.kind)}</span>`:""}
+            ${p.org?`<span>${esc(p.org)}</span>`:""}
+            ${p.location?`<span>${esc(p.location)}</span>`:""}
+            ${p.salary?`<span>💰 ${esc(p.salary)}</span>`:""}
+            ${created?`<span>등록 ${esc(created)}</span>`:""}
+          </div>
+        </div>
+        <div class="dday ${d.cls}">${esc(d.text)}<div class="more">${isOpen?"접기 ▴":"요약 보기 ▾"}</div></div>
+      </div>
+      ${isOpen ? bodyHtml(p, d, dept) : ""}
+    </div>`;
+  }).join("");
+}
+
+$("#tabs").addEventListener("click", e => {
+  const b = e.target.closest("button[data-k]"); if(!b) return;
+  current = b.dataset.k;
+  try{ history.replaceState(null,"", current==="전체" ? location.pathname : "#"+current); }catch{}
+  render();
+});
+$("#board").addEventListener("click", e => {
+  if(e.target.closest("a,button")) return;
+  if(!e.target.closest(".row-head")) return;
+  const row = e.target.closest(".row"); if(!row) return;
+  const id = row.dataset.id;
+  openIds.has(id) ? openIds.delete(id) : openIds.add(id);
+  render();
+});
+$("#q").addEventListener("input", render);
+$("#hideClosed").addEventListener("change", render);
+
+function parseCSV(t){
+  const rows=[]; let row=[], f="", q=false;
+  for(let i=0;i<t.length;i++){
+    const c=t[i];
+    if(q){ if(c=='"'){ if(t[i+1]=='"'){f+='"';i++;} else q=false; } else f+=c; }
+    else if(c=='"') q=true;
+    else if(c==','){ row.push(f); f=""; }
+    else if(c=='\n'){ row.push(f); rows.push(row); row=[]; f=""; }
+    else if(c!='\r') f+=c;
+  }
+  if(f||row.length){ row.push(f); rows.push(row); }
+  return rows;
+}
+function normDate(s){
+  s=String(s||"").trim(); if(!s) return "";
+  const m=s.match(/(\d{4})\D+(\d{1,2})\D+(\d{1,2})/);
+  return m ? `${m[1]}-${m[2].padStart(2,"0")}-${m[3].padStart(2,"0")}` : "";
+}
+function mergePosts(){
+  posts = sheetPosts.concat(filePosts).sort((a,b)=>String(b.createdAt||"").localeCompare(String(a.createdAt||"")));
+}
+async function loadFile(){
+  try{
+    const r = await fetch("posts.json?t="+Date.now());
+    const j = await r.json();
+    filePosts = (j.posts||[]).filter(p=>p&&p.id&&p.title);
+    if(j.updatedAt) $("#liveText").textContent = "최근 업데이트 " + new Date(j.updatedAt).toLocaleString("ko-KR",{timeZone:"Asia/Seoul",month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"});
+  }catch{ $("#liveText").textContent = "자동 수집 공고를 불러오지 못했습니다"; }
+}
+async function loadSheet(){
+  if(!CONFIG.SHEET_CSV_URL) return;
+  try{
+    const r = await fetch(CONFIG.SHEET_CSV_URL+(CONFIG.SHEET_CSV_URL.includes("?")?"&":"?")+"t="+Date.now());
+    const rows = parseCSV(await r.text()); if(rows.length<2) return;
+    const head = rows[0].map(h=>COLS[h.trim()]||"");
+    const hasApproval = head.includes("approved");
+    sheetPosts = rows.slice(1).map((r,i)=>{
+      const p={}; head.forEach((k,j)=>{ if(k) p[k]=(r[j]||"").trim(); });
+      p.id="sheet-"+i; p.source="member";
+      p.dept = DEPT_MAP[p.dept] || (["edu","trans","culture","all"].includes(p.dept)?p.dept:"all");
+      p.deadline = normDate(p.deadline);
+      const c = normDate(p.createdAt); p.createdAt = c ? c+"T00:00:00Z" : "";
+      return p;
+    }).filter(p=>p.title && (!hasApproval || /^(o|y|yes|승인|ㅇ|1|true)$/i.test(p.approved||"")));
+  }catch{}
+}
+(async function init(){
+  const h=(location.hash||"").slice(1);
+  if(["edu","trans","culture","all"].includes(h)) current=h;
+  if(CONFIG.FORM_URL) $("#writeBtn").href = CONFIG.FORM_URL; else $("#writeBtn").style.display="none";
+  render();
+  await Promise.all([loadFile(), loadSheet()]);
+  mergePosts(); render();
+  setInterval(async()=>{ await Promise.all([loadFile(), loadSheet()]); mergePosts(); render(); }, 5*60*1000);
+})();
+</script>
+</body>
+</html>
