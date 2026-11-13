@@ -1,0 +1,44 @@
+name: 공고 자동 수집
+
+on:
+  schedule:
+    # 한국시간 오전 8시 17분, 오후 6시 17분 (GitHub는 UTC 기준)
+    - cron: "17 23 * * *"
+    - cron: "17 9 * * *"
+  workflow_dispatch: {}   # Actions 탭에서 'Run workflow' 버튼으로 바로 실행 가능
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 라이브러리 설치
+        run: pip install requests beautifulsoup4
+
+      - name: 공고 수집
+        run: python scripts/collect.py
+
+      - name: 변경 사항 저장
+        run: |
+          if git diff --quiet posts.json; then
+            echo "새 공고 없음"
+            exit 0
+          fi
+          git config user.name "kfl-job-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add posts.json
+          git commit -m "공고 자동 업데이트 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')"
+          git push
