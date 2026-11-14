@@ -1,6 +1,45 @@
 {
- "updatedAt": "2026-11-14T09:55:44Z",
+ "updatedAt": "2026-11-14T23:46:13Z",
  "posts": [
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "중국어 특허 번역 프리랜서 채용",
+   "org": "(주)무한기술번역",
+   "deadline": "2026-12-20",
+   "location": "서울 금천구",
+   "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55355183",
+   "content": "사람인 '통번역' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-138e78571afb",
+   "createdAt": "2026-11-14T23:46:13Z"
+  },
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "[강남] 성형외과 영어 통역 코디네이터 (신입·비자지원)",
+   "org": "(주)유노제이",
+   "deadline": "",
+   "location": "서울 강남구",
+   "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55494852",
+   "content": "사람인 '의료통역' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-8b5e62397fdd",
+   "createdAt": "2026-11-14T23:46:13Z"
+  },
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "[천안]병원 태국 통역사 채용(D-2 비자 불가능)",
+   "org": "주식회사이레마케팅화성관리본부",
+   "deadline": "2026-11-19",
+   "location": "충남 천안시 동남구",
+   "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55341944",
+   "content": "사람인 '의료통역' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-f986cdcaef37",
+   "createdAt": "2026-11-14T23:46:13Z"
+  },
   {
    "dept": "trans",
    "kind": "채용",
