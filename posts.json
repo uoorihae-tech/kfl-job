@@ -1,6 +1,45 @@
 {
- "updatedAt": "2026-11-16T10:45:58Z",
+ "updatedAt": "2026-11-16T23:53:27Z",
  "posts": [
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "영상 번역/한국어 SDH 프리랜서",
+   "org": "픽셀로직코리아(유)",
+   "deadline": "2026-12-16",
+   "location": "서울 마포구",
+   "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55588640",
+   "content": "사람인 '번역가' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-0279662cb710",
+   "createdAt": "2026-11-16T23:53:27Z"
+  },
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "[서울/태국] 병원통역사&SNS마케터 채용",
+   "org": "(주)이레마케팅",
+   "deadline": "2026-11-19",
+   "location": "서울 강남구",
+   "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55340028",
+   "content": "사람인 '의료통역' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-5f1b46ccd545",
+   "createdAt": "2026-11-16T23:53:27Z"
+  },
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "(주)해신 중국어 통번역 및 일반 사무직 모집",
+   "org": "",
+   "deadline": "",
+   "location": "",
+   "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/50375734",
+   "content": "잡코리아 '통번역' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-de4f0800fdd9",
+   "createdAt": "2026-11-16T23:53:27Z"
+  },
   {
    "dept": "culture",
    "kind": "채용",
