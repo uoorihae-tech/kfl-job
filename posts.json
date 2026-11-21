@@ -1,6 +1,32 @@
 {
- "updatedAt": "2026-11-20T23:58:07Z",
+ "updatedAt": "2026-11-21T09:57:45Z",
  "posts": [
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "[루시드치과] (영미권) 통번역 채용",
+   "org": "루시드치과의원",
+   "deadline": "2026-12-20",
+   "location": "서울 강남구",
+   "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55628012",
+   "content": "사람인 '의료통역' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-150b0757bfb0",
+   "createdAt": "2026-11-21T09:57:45Z"
+  },
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "한국 방문 해외고객 가이드 및 통역 요원 모집(전국)",
+   "org": "",
+   "deadline": "",
+   "location": "",
+   "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/50408957",
+   "content": "잡코리아 '한국어강사' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-c5511447ba93",
+   "createdAt": "2026-11-21T09:57:45Z"
+  },
   {
    "dept": "trans",
    "kind": "채용",
