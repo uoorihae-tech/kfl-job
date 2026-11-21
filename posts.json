@@ -1,6 +1,45 @@
 {
- "updatedAt": "2026-11-21T09:57:45Z",
+ "updatedAt": "2026-11-21T23:49:50Z",
  "posts": [
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "에스에이치컴퍼니 프리랜서 한국어-동남아시아어 번역가 채용",
+   "org": "에스에이치컴퍼니",
+   "deadline": "2026-12-21",
+   "location": "제주 제주시",
+   "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55638608",
+   "content": "사람인 '번역가' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-81ef314a453a",
+   "createdAt": "2026-11-21T23:49:50Z"
+  },
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "[루시드치과] (영미) 통번역 담당 모집",
+   "org": "",
+   "deadline": "",
+   "location": "",
+   "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/50403380",
+   "content": "잡코리아 '통번역' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-1d73b2fbd792",
+   "createdAt": "2026-11-21T23:49:50Z"
+  },
+  {
+   "dept": "culture",
+   "kind": "채용",
+   "title": "갤러리티 부산본점 큐레이터 모집",
+   "org": "",
+   "deadline": "",
+   "location": "",
+   "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/50409048",
+   "content": "잡코리아 '큐레이터' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-23ae8b1dc36c",
+   "createdAt": "2026-11-21T23:49:50Z"
+  },
   {
    "dept": "trans",
    "kind": "채용",
