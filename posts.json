@@ -1,6 +1,58 @@
 {
- "updatedAt": "2026-11-21T23:49:50Z",
+ "updatedAt": "2026-11-22T09:56:58Z",
  "posts": [
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "현대모비스 영업부문 통번역 계약직 채용(서울역삼)",
+   "org": "현대모비스(주)",
+   "deadline": "2026-11-26",
+   "location": "서울 강남구",
+   "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55631462",
+   "content": "사람인 '통번역' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-336205117c83",
+   "createdAt": "2026-11-22T09:56:58Z"
+  },
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "의학·임상 분야 중한/한중 번역사 모집",
+   "org": "(주)엔코라인",
+   "deadline": "",
+   "location": "서울 영등포구",
+   "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55437731",
+   "content": "사람인 '번역가' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-6413c6c8ab13",
+   "createdAt": "2026-11-22T09:56:58Z"
+  },
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "PTSGI [게임 분야] 중한(간체, 번체) 프리랜서 번역사 모집",
+   "org": "피티에스그룹인터내셔널(유) 한국지사",
+   "deadline": "2026-12-02",
+   "location": "서울 강남구",
+   "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55453753",
+   "content": "사람인 '번역가' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-bc72ca8ace71",
+   "createdAt": "2026-11-22T09:56:58Z"
+  },
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "중국어 시니어 에디터 채용 [경력 5년 이상]",
+   "org": "주식회사오네스트랩",
+   "deadline": "2026-12-10",
+   "location": "서울 강남구",
+   "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55252000",
+   "content": "사람인 '현지화' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-85ed212aaf10",
+   "createdAt": "2026-11-22T09:56:58Z"
+  },
   {
    "dept": "trans",
    "kind": "채용",
