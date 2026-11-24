@@ -1,6 +1,71 @@
 {
- "updatedAt": "2026-11-24T10:21:16Z",
+ "updatedAt": "2026-11-24T23:58:03Z",
  "posts": [
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "진안(주) 영어 통번역 담당자 모집 공고",
+   "org": "진안(주)",
+   "deadline": "2027-01-23",
+   "location": "부산 강서구",
+   "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55654739",
+   "content": "사람인 '통번역' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-cb1446827a0e",
+   "createdAt": "2026-11-24T23:58:03Z"
+  },
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "PTSGI [게임 분야] 한영 게임 프리랜서 번역사 모집",
+   "org": "피티에스그룹인터내셔널(유) 한국지사",
+   "deadline": "2026-12-23",
+   "location": "서울 강남구",
+   "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55649907",
+   "content": "사람인 '번역가' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-83c445f4b227",
+   "createdAt": "2026-11-24T23:58:03Z"
+  },
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "스페인어 시니어 에디터 채용 [경력 3년 이상]",
+   "org": "주식회사오네스트랩",
+   "deadline": "2026-12-11",
+   "location": "서울 강남구",
+   "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55252070",
+   "content": "사람인 '현지화' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-ef2dee7b49c8",
+   "createdAt": "2026-11-24T23:58:03Z"
+  },
+  {
+   "dept": "culture",
+   "kind": "채용",
+   "title": "2026년도 (재)세미원 공무직(학예사) 채용 공고",
+   "org": "",
+   "deadline": "",
+   "location": "",
+   "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/50421551",
+   "content": "잡코리아 '큐레이터' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-8303dcac87cc",
+   "createdAt": "2026-11-24T23:58:03Z"
+  },
+  {
+   "dept": "culture",
+   "kind": "채용",
+   "title": "[퐁피두센터 한화] 어시스턴트 큐레이터 채용",
+   "org": "",
+   "deadline": "",
+   "location": "",
+   "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/50425683",
+   "content": "잡코리아 '큐레이터' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-4911cf3a3dc9",
+   "createdAt": "2026-11-24T23:58:03Z"
+  },
   {
    "dept": "trans",
    "kind": "채용",
