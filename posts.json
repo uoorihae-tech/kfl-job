@@ -1,6 +1,45 @@
 {
- "updatedAt": "2026-11-27T10:18:26Z",
+ "updatedAt": "2026-11-28T00:00:16Z",
  "posts": [
+  {
+   "dept": "edu",
+   "kind": "채용",
+   "title": "[안산대학교 한국어교육센터] 한국어 강사 초빙",
+   "org": "",
+   "deadline": "",
+   "location": "",
+   "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/50441830",
+   "content": "잡코리아 '한국어강사' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-7dd59830c94a",
+   "createdAt": "2026-11-28T00:00:16Z"
+  },
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "SC제일은행 고객컨택센터 통번역사 채용(영어)",
+   "org": "",
+   "deadline": "",
+   "location": "",
+   "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/50446114",
+   "content": "잡코리아 '통번역' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-2676d3a7800e",
+   "createdAt": "2026-11-28T00:00:16Z"
+  },
+  {
+   "dept": "culture",
+   "kind": "채용",
+   "title": "[THE TRINITY] 갤러리/아트컨시어지 큐레이터 채용 (신입/경력)",
+   "org": "",
+   "deadline": "",
+   "location": "",
+   "link": "https://www.jobkorea.co.kr/Recruit/GI_Read/50446062",
+   "content": "잡코리아 '큐레이터' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-77f64ee8812c",
+   "createdAt": "2026-11-28T00:00:16Z"
+  },
   {
    "dept": "trans",
    "kind": "채용",
@@ -7662,20 +7701,6 @@
    "salary": "월급 260만원 이상"
   },
   {
-   "id": "auto-e21fb1f61f",
-   "dept": "culture",
-   "kind": "채용",
-   "title": "2026년 하반기 제2차 휴직대체인력(일반행정) 및 계약직(일반행정) 채용",
-   "org": "한국문화예술위원회(ARKO)",
-   "deadline": "2026-11-13",
-   "location": "",
-   "link": "https://www.arko.or.kr/board/view/4054?bid=&page=&cid=1811333",
-   "content": "주요 업무: 일반행정 11명 (나주 작가 레지던시 운영·휴직대체 나주/서울)\n자격 요건: 성별·연령·학력 제한 없음, 분야별 필수자격 충족, 즉시 근무\n근무 조건: 계약직 1년, 월~금 09:00~18:00, 12/7 입사\n지원 방법: 인크루트 온라인 접수 (11/13 18:00 마감)",
-   "createdAt": "2026-11-13T09:20:25Z",
-   "source": "auto",
-   "salary": "월 기본급 230만원 (세전, 성과급·복지 별도)"
-  },
-  {
    "id": "auto-2ba18e3bcb",
    "dept": "all",
    "kind": "채용",
@@ -9104,19 +9129,6 @@
    "link": "https://www.saramin.co.kr/zf_user/search/recruit?searchword=%EB%A7%A8%ED%8C%8C%EC%9B%8C%EC%BD%94%EB%A6%AC%EC%95%84%20%EB%B2%88%EC%97%AD",
    "content": "주요 업무: 대전 공공기관 영어 통번역(12개월)\n자격 요건: 경력·학력 무관\n근무 조건: 파견직, 대전 유성구",
    "createdAt": "2026-11-13T03:20:33Z",
-   "source": "auto"
-  },
-  {
-   "id": "auto-8c31e7ae2b",
-   "dept": "trans",
-   "kind": "채용",
-   "title": "[패키지솔루션] 일본어 통번역 담당자 (계약직)",
-   "org": "엘지이노텍(주)",
-   "deadline": "2026-11-13",
-   "location": "경북 구미시",
-   "link": "https://www.saramin.co.kr/zf_user/search/recruit?searchword=%EC%97%98%EC%A7%80%EC%9D%B4%EB%85%B8%ED%85%8D%20%EB%B2%88%EC%97%AD",
-   "content": "사람인 검색 결과에 올라온 공고. 링크는 사람인 검색 화면으로 연결되며, 기관명으로 찾으면 원문 공고를 볼 수 있습니다.",
-   "createdAt": "2026-11-13T03:20:32Z",
    "source": "auto"
   },
   {
