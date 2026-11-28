@@ -1,6 +1,71 @@
 {
- "updatedAt": "2026-11-28T00:00:16Z",
+ "updatedAt": "2026-11-28T10:01:35Z",
  "posts": [
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "[대기업/신입가능/복지우수] LS엠트론 영어 통번역 채용",
+   "org": "(주)사람인에이치에스",
+   "deadline": "",
+   "location": "전북 완주군",
+   "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55692488",
+   "content": "사람인 '통번역' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-bfc88e31c43d",
+   "createdAt": "2026-11-28T10:01:35Z"
+  },
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "스페인어 통.번역 직원 채용 / (계약직, MEX 주재원)",
+   "org": "광명산업(주)",
+   "deadline": "",
+   "location": "북·중미 멕시코",
+   "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55426739",
+   "content": "사람인 '통번역' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-d8eece770224",
+   "createdAt": "2026-11-28T10:01:35Z"
+  },
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "[기숙사/비자]성형외과 통역 코디(중국/일본/러시아/인니/아랍)",
+   "org": "기린성형외과의원",
+   "deadline": "2026-12-22",
+   "location": "서울 서초구",
+   "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55377396",
+   "content": "사람인 '의료통역' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-887d7b71fcd6",
+   "createdAt": "2026-11-28T10:01:35Z"
+  },
+  {
+   "dept": "culture",
+   "kind": "채용",
+   "title": "[사립미술관] 수석 큐레이터 (Chief Curator) 임원급",
+   "org": "(주)에임즈인터내셔널코리아",
+   "deadline": "2026-12-12",
+   "location": "서울 강남구",
+   "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55688640",
+   "content": "사람인 '학예사' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-3ebb8f49a05f",
+   "createdAt": "2026-11-28T10:01:35Z"
+  },
+  {
+   "dept": "trans",
+   "kind": "채용",
+   "title": "[상시채용] AI Research Engineer · 웹툰 현지화 AI 모델 연구",
+   "org": "(주)브레인벤쳐스",
+   "deadline": "",
+   "location": "경기 성남시 수정구",
+   "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55363811",
+   "content": "사람인 '현지화' 검색 결과 공고.",
+   "source": "auto",
+   "id": "gh-1e4954268911",
+   "createdAt": "2026-11-28T10:01:35Z"
+  },
   {
    "dept": "edu",
    "kind": "채용",
